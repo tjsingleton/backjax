@@ -1,0 +1,184 @@
+	
+#cardstack {
+width: 7em;
+height: 10em;
+background: url(cardstack.png) center center;
+border: 1px solid;
+position: absolute;
+right: .7em;
+-moz-border-radius: .5em;
+z-index: 1;
+}
+
+.card {
+width: 7em;
+height: 10em;
+border: 1px solid #000;
+position: relative;
+margin-right: -4.5em;
+background: #fff;
+-moz-border-radius: .5em;
+display: none;
+}
+
+.top .value {
+position: absolute;
+top: .1em;
+left: .2em;
+font-size: 2em;
+}
+
+.top .suit {
+position: absolute;
+top: .9em;
+left: .2em;
+font-size: 2em;
+}
+
+.middle .suit {
+position: absolute;
+top: .7em;
+left: .6em;
+font-size: 4em;
+}
+
+.bottom .value {
+position: absolute;
+bottom: .8em;
+right: .2em;
+font-size: 2em;
+}
+
+.bottom .suit {
+position: absolute;
+bottom: .025em;
+right: .2em;
+font-size: 2em;
+}
+
+div.player {
+display: block;
+margin: 25px;
+position: relative;
+width: 40%;
+float: left;
+height: 12em;
+padding: 10px
+}
+
+#Dealer {
+width: 85%;
+}
+
+div.player h2 {
+margin: 0;
+border-bottom: double;
+}
+.card.diams, .card.hearts {
+color: red;
+}
+
+ul.hand {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+ul.hand li {
+float: left;
+}
+
+.busted {
+position: absolute;
+left: .6em;
+top: 1.5em;
+font-size: 3.5em;
+padding: .25em;
+background: #FFCFCF;
+border: .05em red solid;
+display:none;
+}
+
+.blackjack {
+position: absolute;
+left: .6em;
+top: 1.5em;
+font-size: 3.5em;
+padding: .25em;
+background: #83BF86;
+border: .05em #364F37 solid;
+display:none;
+}
+
+.stood {
+position: absolute;
+left: .6em;
+top: 1.5em;
+font-size: 3.5em;
+padding: .25em;
+background: #A7DFA9;
+border: .05em #377F41 solid;
+display:none;
+}
+
+div#gameMsg {
+padding: 1em;
+position: absolute;
+background: #eee;
+border: 2px solid;
+z-index: 10000000000000000;
+text-align: center;
+line-height: 2;
+width: 12em;
+}
+
+div#gameMsg strong {
+font-size: 1.5em;
+}
+div#gameMsg button {
+//width: 90%;
+}
+div#gameMsg a {
+font-size: .75em;
+}
+body {
+background: #456F47;
+font-family: verdana;
+}
+
+div.buttons {
+/*
+-moz-border-radius: 5em;
+border: 6px double #fff;
+height: 5em;
+width: 5em;
+margin: 10px;
+color: #000;
+background: red;
+font-weight: bold;
+font-family: arial;
+*/
+position: absolute;
+right: .5em;
+top: 1em;
+}
+
+
+
+#gameSetup {
+width: 500px;
+height: 400px;
+background: #fff;
+padding: 3em;
+border: 3px solid;
+margin: 0 auto;
+}
+
+#gameSetup div {
+padding: 5px 0; 
+}
+
+#gameSetup label {
+float: left;
+width: 75px;
+}
